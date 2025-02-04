@@ -1,39 +1,4 @@
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore Python cache and compiled files
-__pycache__/
-*.py[cod]
-*.so
-
-# Ignore virtual environments
-venv/
-env/
-*.venv/
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore logs, temporary files, and debug files
-logs/
-*.log
-*.tmp
-
-# Ignore dataset files
-*.csv
-*.xlsx
-*.json
-*.db
-
-# Ignore model weights
-*.h5
-*.pkl
-*.joblib
-
-# Ignore VS Code settings
-.vscode/
-
-# Ignore runtime-generated files
-*.out
-*.pid
+venv
+diabetes_ipynb
+heart_ipynb
+parkinsons_ipynb
